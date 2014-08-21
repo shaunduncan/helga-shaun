@@ -3,7 +3,7 @@ import random
 from helga.plugins import command
 
 
-@command('shaun', help='SHAAAAAAAAUUUUN')
+@command('shaun', aliases=['x'], help='SHAAAAAAAAUUUUN')
 def shaun(client, channel, nick, message, cmd, args):
     """
     SHAAAAAAAAUUN
